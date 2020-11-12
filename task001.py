@@ -1,6 +1,14 @@
+# -*- coding: utf-8 -*-
+
 import xlrd
 import datetime
 import math
+import sys
+
+version = sys.version_info.major    # 大版本号
+if version != 3:
+    reload(sys)
+    sys.setdefaultencoding('utf8')
 
 
 # 日期
